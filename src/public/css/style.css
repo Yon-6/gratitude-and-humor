@@ -1,0 +1,37 @@
+/* ====================
+    共通部分のスタイル
+ ====================*/
+body {
+    color: #757679;
+    font-size: 14px;
+}
+
+
+/* ====================
+    ヘッダーのスタイル
+ ====================*/
+/* トップページのヘッダー */
+.top-page-header {
+    background-image: url("/images/home2.jpg");
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.top-page-header-title {
+    font-size: 42px;
+}
+
+
+/* ====================
+    フッターのスタイル
+ ====================*/
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
