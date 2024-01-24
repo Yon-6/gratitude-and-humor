@@ -15,7 +15,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 </html>
-<body id="tg-content">
+<body id="tg-content" class="grid grid-cols-3">
 @include('layouts.header')
 @yield('content')
 @include('layouts.footer')
