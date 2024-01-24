@@ -10,6 +10,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 </html>
 <body id="tg-content">

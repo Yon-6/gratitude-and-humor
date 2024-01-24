@@ -1,37 +1,90 @@
 /* ====================
-    共通部分のスタイル
- ====================*/
+    共通
+==================== */
 body {
-    color: #757679;
-    font-size: 14px;
+    font-family: "メイリオ", Menlo;
+    color: #757575;
 }
 
-
 /* ====================
-    ヘッダーのスタイル
- ====================*/
-/* トップページのヘッダー */
+    ヘッダー
+==================== */
 .top-page-header {
-    background-image: url("/images/home2.jpg");
-    background-size: cover;
-    background-position:  center;
-    background-repeat: no-repeat;
-    height: 300px;
+    width: 960px;
+    height: 109px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    padding-left: 10%;
 }
 .top-page-header-title {
-    font-size: 42px;
+    font-size: 33px;
+    font-weight: bold;
 }
 
+/* ====================
+    フッター
+==================== */
+.footer {
+    width: 100%;
+    height: 58px;
+    margin-top: 20px;
+    text-align: center;
+}
 
 /* ====================
-    フッターのスタイル
- ====================*/
-.footer {
-    height: 100px;
+    メインコンテンツ
+==================== */
+.content-wap {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.main-image {
+    width: 960px;
+    height: 300px;
+    margin-bottom :100px;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px;
+}
+.section-wap {
     display: flex;
-    justify-content: center;
+}
+.left {
+    width: 575px;
+    height: 198px;
+    margin-right: 20px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.programming-skill-wrap {
+    margin-top: 30px;
+}
+.programming-skill-title {
+    font-size: 20px;
+}
+.icon-wrap {
+    display: flex;
+    margin: 20px 30px;
+}
+.icon-wrap img {
+    width: 33px;
+}
+.right {
+    width: 365px;
+    height: 198px;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+}
+.imag-wrap img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px;
+}
+.icon-wrap span {
+    line-height: 33px;
+    padding-left: 10px;
 }
