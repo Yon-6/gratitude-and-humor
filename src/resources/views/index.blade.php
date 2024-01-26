@@ -6,7 +6,13 @@
     @yield('header')
     <div class="content-wap col-span-3">
         <div class="section-wap grid grid-cols-2">
-            <div class="left col-span-1">
+            <div class="right col-span-2 grid grid-cols-2">
+                <div class="imag-wrap col-span-1">
+                    <img src="{{ asset('images/photo.jpg') }}" alt="自己紹介画像">
+                </div>
+                <p class="col-span-1">Tomonori Yoshimura</p>
+            </div>
+            <div class="left col-span-2">
                 <h2 class="section-title">Programming Skill</h2>
                 <div class="programming-skill-wrap">
                     <h3 class="programming-skill-title">Programming Language</h3>
@@ -37,12 +43,6 @@
                 <div class="programming-skill-wrap">
                     <h3 class="programming-skill-title">Git</h3>
                     <div class="icon-wrap"><img src="{{ asset('images/icon/github.png') }}" alt=""><span>GitHub</span></div>
-                </div>
-            </div>
-            <div class="right col-span-1 grid grid-cols-2">
-                <p class="col-span-1">Tomonori Yoshimura</p>
-                <div class="imag-wrap col-span-1">
-                    <img src="{{ asset('images/photo.jpg') }}" alt="自己紹介画像">
                 </div>
             </div>
         </div>

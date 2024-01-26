@@ -2,7 +2,7 @@
     {{-- トップページの場合のヘッダー --}}
     <header class="top-page-header col-span-3">
         <div class="main-image">
-            <img src="{{ asset('images/home.jpg') }}" alt="メイン画像">
+            <img src="{{ asset('images/header.jpg') }}" alt="メイン画像">
             <h1 class="top-page-header-title">感謝とユーモア</h1>
         </div>
     </header>

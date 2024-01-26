@@ -10,14 +10,18 @@ body {
     ヘッダー
 ==================== */
 .top-page-header {
-    width: 960px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .top-page-header-title {
-    font-size: 33px;
+    font-size: 65px;
+    color: #fff;
     font-weight: bold;
+    position: absolute;
+    top: 80px;
+    left: 110px;
 }
 
 /* ====================
@@ -52,12 +56,12 @@ body {
 /*    width: 575px;*/
 /*    margin: 20px 20px 0 0;*/
 /*}*/
-/*.section-title {*/
-/*    font-size: 24px;*/
-/*    font-weight: bold;*/
-/*    text-align: center;*/
-/*    padding-bottom: 30px;*/
-/*}*/
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
 /*.programming-skill-wrap {*/
 /*    margin-top: 30px;*/
 /*}*/
