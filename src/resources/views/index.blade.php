@@ -4,10 +4,10 @@
 
 @section('content')
     @yield('header')
-    <div class="content-wap col-span-3">
-        <div class="section-wap grid grid-cols-2">
-            <div class="right col-span-2 grid grid-cols-2">
-                <div class="imag-wrap col-span-1">
+    <div class="content-wrap col-span-3">
+        <div class="section-wrap grid grid-cols-2">
+            <div class="self-introduction-wrap col-span-2 grid grid-cols-2">
+                <div class="self-introduction-imag-wrap col-span-1">
                     <img src="{{ asset('images/photo.jpg') }}" alt="自己紹介画像">
                 </div>
                 <p class="col-span-1">Tomonori Yoshimura</p>

@@ -75,10 +75,7 @@ body {
 .icon-wrap img {
     width: 33px;
 }
-.right {
-    background-color: #2563eb;
-}
-.imag-wrap img {
+.self-introduction-imag-wrap img {
     width: 100px;
     border-radius: 50%;
     box-shadow: 5px 5px 8px;
