@@ -7,15 +7,18 @@
     <div class="content-wrap">
         <div class="section-wrap">
             <div id="self-introduction-wrap">
+                <h2 class="section-title">Self Introduction</h2>
                 <div class="self-introduction-inner-wrap">
-                    <div class="self-introduction-imag-wrap">
-                        <img src="{{ asset('images/photo.jpg') }}" alt="自己紹介画像">
-                        <p>Yon</p>
+                    <div class="self-introduction-inner">
+                        <div class="self-introduction-imag-wrap">
+                            <img src="{{ asset('images/photo.jpg') }}" alt="自己紹介画像">
+                            <p>Yon</p>
+                        </div>
+                        <p>
+                            　高校を卒業してから約15年間接客業に携わり、2021年に未経験からWeb制作会社に転職。<br>
+                            PHPをメイン言語に、Web制作を中心にアプリ開発をしています。現在IT業界4年目です。
+                        </p>
                     </div>
-                    <p>
-                        　高校を卒業してから約15年間接客業に携わり、2021年に未経験からWeb制作会社に転職。<br>
-                        PHPをメイン言語に、Web制作を中心にアプリ開発をしています。現在IT業界4年目です。
-                    </p>
                 </div>
             </div>
             <div id="programming-skill-wrap">
