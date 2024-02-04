@@ -1,9 +1,18 @@
 @if(Request::is('/'))
     {{-- トップページの場合のヘッダー --}}
-    <header class="top-page-header col-span-3">
-        <div class="main-image">
+    <header class="top-page-header">
+        <div class="header-navi">
+            <h1 class="top-page-header-title"><a href="/">感謝とユーモア</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#self-introduction">Self Introduction</a></li>
+                    <li><a href="/#programming-skill">Programming Skill</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-main-image">
             <img src="{{ asset('images/header.jpg') }}" alt="メイン画像">
-            <h1 class="top-page-header-title">感謝とユーモア</h1>
         </div>
     </header>
 @else

@@ -2,8 +2,11 @@
     共通
 ==================== */
 body {
-    font-family: "メイリオ", Menlo;
-    color: #757575;
+    font-family: Roboto, "メイリオ", Menlo, arial, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00438C;
 }
 
 /* ====================
@@ -11,17 +14,191 @@ body {
 ==================== */
 .top-page-header {
     margin: 0 auto;
+    font-weight: bold;
+}
+.header-navi {
+    height: 90px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
+    padding: 0 16px;
+    margin: 0 10%;
 }
 .top-page-header-title {
-    font-size: 65px;
-    color: #fff;
+    font-size: 20px;
+}
+.top-page-header-title a {
+    transition: all 0.3s ease;
+}
+.top-page-header-title a:hover {
+    color: #919798;
+}
+.header-navi nav ul {
+    display: flex;
+}
+.header-navi nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.header-navi nav ul li a {
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+.header-navi nav ul li a:hover {
+    color: #F58426;
+}
+
+     /* ====================
+         メインコンテンツ
+     ==================== */
+/* 共通 */
+
+/* 自己紹介 */
+#self-introduction-wrap {
+    height: 660px;
+    padding: 120px 32px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.self-introduction-inner-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.self-introduction-imag-wrap {
+    padding-right: 30px;
+}
+.self-introduction-imag-wrap p {
+    padding-top: 10px;
+    text-align: center;
     font-weight: bold;
-    position: absolute;
-    top: 80px;
-    left: 110px;
+}
+.self-introduction-text-wrap p {
+    font-weight: bold;
+}
+
+/* プログラミングスキル */
+#programming-skill-wrap {
+    padding: 120px 32px;
+    background-color: #F58426;
+    color: #ffffff;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.programming-skill-detail {
+    padding: 24px;
+    margin: 24px 20%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+}
+.programming-skill-title {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+.programming-skill-detail table {
+    margin-left: 5%;
+}
+.programming-skill-detail table tr {
+    display: flex;
+    margin: 7px 0;
+}
+.icon-wrap,
+.text-wrap,
+.skill-wrap {
+    display: flex;
+    align-items: center;
+}
+.text-wrap {
+    width: 160px;
+    margin-left: 8px;
+}
+.icon-wrap img {
+    width: 33px;
+}
+.icon-wrap span {
+    padding-left: 10px;
+}
+.self-introduction-imag-wrap img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+}
+.skill-bar {
+    height: 18px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #fff;
+}
+.html {
+    background-color: #E44F26;
+    width: 327px;
+}
+.css {
+    background-color: #30A4D8;
+    width: 272px;
+}
+.javascript {
+    background-color: #F7DF1E;
+    width: 272px;
+}
+.php {
+    background-color: #777BB3;
+    width: 436px;
+}
+.liquid {
+    width: 218px;
+}
+.laravel {
+    background-color: #FD4F31;
+    width: 381px;
+}
+.laravel-shopify {
+    width: 354px;
+}
+.symfony {
+    width: 327px;
+}
+.mysql {
+    background-color: #66A0B8;
+    width: 381px;
+}
+.postgresql {
+    background-color: #336791;
+    width: 408px;
+}
+.ec-cube {
+    background-color: #FFCC00;
+    width: 408px;
+}
+.shopify {
+    background-color: #81BF37;
+    width: 381px;
+}
+.wordpress {
+    background-color: #21759A;
+    width: 354px;
+}
+.movable-type {
+    background-color: #5DBAE9;
+    width: 327px;
+}
+.git {
+    width: 436px;
+}
+.liquid,
+.laravel-shopify,
+.symfony,
+.git {
+    background-color: #010002;
+    width: px;
 }
 
 /* ====================
@@ -30,65 +207,8 @@ body {
 .footer {
     width: 100%;
     height: 58px;
-    margin-top: 100px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
 }
-
-/* ====================
-    メインコンテンツ
-==================== */
-/*.content-wap {*/
-/*    width: 960px;*/
-/*    height: auto;*/
-/*    margin: 0 auto;*/
-/*}*/
-/*.main-image {*/
-/*    width: 960px;*/
-/*    height: 300px;*/
-/*    margin-bottom :100px;*/
-/*    overflow: hidden;*/
-/*    box-shadow: 5px 5px 8px;*/
-/*}*/
-/*.section-wap {*/
-/*    display: flex;*/
-/*}*/
-/*.left {*/
-/*    width: 575px;*/
-/*    margin: 20px 20px 0 0;*/
-/*}*/
-.section-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 30px;
-}
-/*.programming-skill-wrap {*/
-/*    margin-top: 30px;*/
-/*}*/
-/*.programming-skill-title {*/
-/*    font-size: 20px;*/
-/*}*/
-/*.icon-wrap {*/
-/*    display: flex;*/
-/*    margin: 20px 30px;*/
-/*}*/
-.icon-wrap img {
-    width: 33px;
-}
-.self-introduction-imag-wrap img {
-    width: 100px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 8px;
-}
-/*.icon-wrap span {*/
-/*    line-height: 33px;*/
-/*    padding-left: 10px;*/
-/*}*/
-/*.icon-wrap span::after {*/
-/*    content: "　";*/
-/*    display: inline-block;*/
-/*    background-color: #739bbb;*/
-/*    height: 12px;*/
-/*    width: 300px;*/
-/*    margin-left: 10px;*/
-/*}*/
